@@ -1,8 +1,5 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
-kind: Kustomizatio
+kind: Kustomization
 resources:
-  - gotk-components.yaml
-  - gotk-sync.yaml
-
-
-    #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
+- gotk-components.yaml
+- gotk-sync.yaml
